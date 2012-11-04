@@ -1,0 +1,29 @@
+ html {
+     height: 100%; overflow: hidden
+ }
+        body {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+        }
+        #game {
+            background-color: #ffffff;
+        }
+        #div, #menu {
+            width: 800px;
+            height: 600px;
+            margin: 0px auto;
+            border: 1px solid red;
+            position: absolute;
+        }
+        #div {
+            visibility: hidden;
+        }
+        #menu {
+            background-image: url(menu_bg.png);
+            visibility: visible;
+        }
+        #newgame {
+            margin-left: 500px;
+            margin-top: 230px;
+        }
